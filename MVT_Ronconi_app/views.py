@@ -18,7 +18,7 @@ def Ventas (request):
     return render(request,"MVT_app/venta.html")
 
 def inicio (request):
-    return render(request,"MVT_app/inicio.html")
+    return render(request,"MVT_app/inicio1.html")
 
 def cultivoformulario (request):
 

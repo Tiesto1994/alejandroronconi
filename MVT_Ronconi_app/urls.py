@@ -2,7 +2,7 @@ from django.urls import path
 from MVT_Ronconi_app.views import *
 
 urlpatterns = [
-    path('',inicio,name="inicio"),
+    path('',inicio,name="inicio1"),
     path('cultivo',Cultivo,name="cultivo"),
     path('empresas',Empresas,name="empresa"),
     path('compras',Compras,name="compras"),

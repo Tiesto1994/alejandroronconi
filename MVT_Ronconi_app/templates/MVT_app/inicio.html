@@ -21,12 +21,12 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="{% url 'inicio' %}">mercados agropecuarios</a>
+                <a class="navbar-brand" href="{% url 'inicio1' %}">mercados agropecuarios</a>
 
-                <a class="btn btn-primary" href="{% url 'cultivo' %}">cultivos</a>
-                <a class="btn btn-primary" href="{% url 'empresa' %}">empresas</a>
-                <a class="btn btn-primary" href="{% url 'compras' %}">compras</a>
-                <a class="btn btn-primary" href="{% url 'ventas' %}">ventas</a>
+                <a class="btn btn-primary" href="{% url 'cultivoformulario' %}">cultivos</a>
+                <a class="btn btn-primary" href="{% url 'empresaformulario' %}">empresas</a>
+                <a class="btn btn-primary" href="{% url 'comprasformulario' %}">compras</a>
+                <a class="btn btn-primary" href="{% url 'ventasformulario' %}">ventas</a>
 
 
             </div>
@@ -65,8 +65,13 @@
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                            <h3>Fully Responsive</h3>
-                            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                            <h3>Busqueda de cultivos guardados</h3>
+                            <p class="lead mb-0">busca los cultivos guardados para saber su cosecha y gremio</p>
+                            <nav class="navbar navbar-light bg-light static-top">
+                                <div class="container">
+                  
+                                   <a class="btn btn-primary" href="{% url 'busquedacultivo' %}">buscar</a>
+                                </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
